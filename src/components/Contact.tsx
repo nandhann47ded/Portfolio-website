@@ -35,7 +35,7 @@ export function Contact() {
       {/* Section Subhead */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 hairline-b pb-6 mb-16 text-[10px] sm:text-xs font-mono tracking-[0.25em] uppercase text-neutral-400">
         <div>
-          <span className="text-white font-bold">[04]</span>
+          <span className="text-white font-bold">[03]</span>
           <span className="ml-2">COMMUNICATION // DISPATCH</span>
         </div>
         <div>

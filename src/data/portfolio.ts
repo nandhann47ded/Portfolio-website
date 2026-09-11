@@ -12,15 +12,6 @@ export interface Project {
   image: string;
 }
 
-export interface RecordItem {
-  id: string;
-  role: string;
-  entity: string;
-  period: string;
-  location: string;
-  description: string;
-}
-
 export const portfolioData = {
   personal: {
     name: "Nandhan",
@@ -28,7 +19,7 @@ export const portfolioData = {
     fullName: "Nandhan",
     statement: "SOFTWARE ARCHITECT & DIGITAL ENGINEER",
     location: "REMOTE / GLOBAL",
-    email: "nandhan.dev@gmail.com",
+    email: "nandhanmurali2007@gmail.com",
     available: true,
     statusText: "AVAILABLE FOR SELECT WORK",
     coordinates: "12.9716° N, 77.5946° E",
@@ -43,7 +34,7 @@ export const portfolioData = {
     { label: "GITHUB", url: "https://github.com", handle: "@nandhan" },
     { label: "LINKEDIN", url: "https://linkedin.com", handle: "/in/nandhan" },
     { label: "X / TWITTER", url: "https://x.com", handle: "@nandhandev" },
-    { label: "EMAIL", url: "mailto:nandhan.dev@gmail.com", handle: "nandhan.dev@gmail.com" },
+    { label: "EMAIL", url: "mailto:nandhanmurali2007@gmail.com", handle: "nandhanmurali2007@gmail.com" },
   ],
 
   projects: [
@@ -152,31 +143,4 @@ export const portfolioData = {
       ],
     },
   ],
-
-  records: [
-    {
-      id: "rec-1",
-      role: "LEAD ARCHITECT",
-      entity: "VANGUARD LABS",
-      period: "2023 — PRESENT",
-      location: "GLOBAL / REMOTE",
-      description: "Directing system architecture for high-throughput enterprise platforms and edge delivery networks.",
-    },
-    {
-      id: "rec-2",
-      role: "SENIOR SYSTEMS ENGINEER",
-      entity: "HYPERSCALE",
-      period: "2021 — 2023",
-      location: "REMOTE",
-      description: "Engineered scalable Node.js microservices processing millions of daily transactions with 99.99% uptime.",
-    },
-    {
-      id: "rec-3",
-      role: "INTERFACE DEVELOPER",
-      entity: "PIXEL DIGITAL",
-      period: "2019 — 2021",
-      location: "REMOTE",
-      description: "Crafted high-fidelity web experiences, design systems, and transactional checkout flows.",
-    },
-  ] as RecordItem[],
 };

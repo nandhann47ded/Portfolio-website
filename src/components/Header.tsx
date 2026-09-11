@@ -54,10 +54,7 @@ export function Header() {
             [WORKS]
           </a>
           <a href="#about" className="hover:text-white transition-colors">
-            [INDEX]
-          </a>
-          <a href="#records" className="hidden sm:inline-block hover:text-white transition-colors">
-            [ARCHIVE]
+            [PHILOSOPHY]
           </a>
           <a
             href="#contact"
